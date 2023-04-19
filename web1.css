@@ -1,0 +1,116 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #011515;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+form {
+	background-color: #fbf8f8;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(8, 0, 0, 0.2);
+	margin: 30px auto;
+	max-width: 600px;
+	padding: 20px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+	padding: 4px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	resize: vertical;
+	background-color: #dddada;
+	width: 100%;
+}
+
+input[type="tel"], textarea {
+	padding: 4px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	resize: vertical;
+	background-color: #dddada;
+	width: 100%;
+}
+textarea {
+	height: 150px;
+}
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label[for^="star"]:before {
+	content: "\f005";
+	font-family: FontAwesome;
+	font-size: 25px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+label[for^="star"]:hover:before,
+label[for^="star"]:hover ~ label:before,
+input[type="radio"]:checked ~ label:before {
+	color: #ffc107;
+}
+
+label[for^="star"]:hover:before,
+label[for^="star"]:hover ~ label:before {
+	content: "\f005";
+}
+
+input[type="radio"]:checked ~ label:before {
+	content: "\f005";
+}
+
+
+button[type="submit"] {
+	background-color: #008080;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+	background-color: #006666;
+}
